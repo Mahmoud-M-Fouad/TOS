@@ -1,0 +1,12 @@
+1.
+ngrok http 8000
+
+2.
+
+Forwarding    https://0383-156-202-113-82.eu.ngrok.io -> http://localhost:8000     
+
+take = https://0383-156-202-113-82.eu.ngrok.io
+
+
+uvicorn --host  take   main:app
+uvicorn --host  https://0383-156-202-113-82.eu.ngrok.io  main:app

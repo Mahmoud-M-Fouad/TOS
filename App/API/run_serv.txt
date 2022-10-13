@@ -1,0 +1,8 @@
+in ==> anaconda powershell
+
+1.
+uvicorn --host ---------------------------------------  main:app
+uvicorn --host https://41df-156-203-112-248.eu.ngrok.io  main:app
+
+2.
+uvicorn main:app --reload
