@@ -1,3 +1,3 @@
 # TOS
 Text Of Silence App
-Graduation Project
+(Graduation Project)
